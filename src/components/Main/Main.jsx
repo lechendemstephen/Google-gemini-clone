@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div className='main'>
         <div className="nav">
-            <p>Gemini</p>
+            <p>Gemini Clone</p>
             <img src={assets.user_icon } alt="" />
 
 
@@ -37,6 +37,20 @@ const Main = () => {
                     <p>How to learn Data Science</p>
                     <img src={assets.code_icon} alt="" />
                 </div>
+            </div>
+            <div className="main-bottom">
+                <div className="search-box">
+                    <input type="text" placeholder='Enter a prompt here' />
+                    <div>
+                        <img src={assets.gallery_icon} alt="" />
+                        <img src={assets.mic_icon} alt="" />
+                        <img src={assets.send_icon} alt="" />
+                    </div>
+                </div>
+                <p className="bottom-info">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat eveniet molestiae accusamus enim quas, 
+                    
+                </p>
             </div>
         </div>
      
