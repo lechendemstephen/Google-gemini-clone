@@ -16,8 +16,9 @@
 }
 
 .main .nav img {
-    width: 40px;
+    width: 30px;
     border-radius: 50%;
+    height: 30px;
 }
 
 .main-container {
@@ -147,6 +148,7 @@
 .result img {
     width: 40px;
     border-radius: 50px;
+    height: 40px;
 }
 
 
@@ -188,4 +190,23 @@
     font-size: 17px ;
     font-weight: 300;
     line-height: 1.8;
+}
+
+
+@media (max-width: 600px){
+    .main-bottom input {
+        flex: none;
+        width: 150px;
+    }
+
+    .main-bottom img {
+        width:20px ;
+    }
+
+    .search-box {
+        padding: 5px 10px;
+    }
+    .search-box div {
+        gap: 5px;
+    }
 }
