@@ -22,15 +22,13 @@ import {
   
   async function run(prompt) {
     const chatSession = model.startChat({
-      generationConfig,
-      history: [
-      ],
+        generationConfig,
+        history: [],
     });
-  
+
     const result = await chatSession.sendMessage(prompt);
     console.log(result.response.text());
-    return response.text();
-  }
-  
- export default  run;
+    return result.response.text();
+}
 
+export default run;
